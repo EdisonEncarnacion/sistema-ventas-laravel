@@ -17,6 +17,3 @@ Route::get('/', function () {
     return view('Hola mundo');
 });
 
-Route::get('/', function () {
-    return view('Se soluciono el problema');
-});
