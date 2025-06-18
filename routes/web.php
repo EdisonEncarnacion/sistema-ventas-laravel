@@ -18,5 +18,8 @@ Route::get('/', function () {
 });
 
 Route::get('/nosotros', [NosotrosController::class, 'index'])->name('nosotros');
+Route::get('/prueba', function () {
+    return view('prueba');
+});
 
 
